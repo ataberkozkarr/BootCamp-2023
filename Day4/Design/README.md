@@ -1,4 +1,8 @@
 # Kasım Adalan BootCamp-2023 
 # First Design Project
 
-(https://github.com/ataberkozkarr/BootCamp-2023/blob/main/Day4/Design/Photo/homework_1.png)
+<img
+  src="/photo/homework_1.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
