@@ -2,7 +2,7 @@
 # First Design Project
 
 <img
-  src="/Design/Photo/homework_1.png"
-  alt="Alt text"
+  src="/Day4/Design/Photo/homework_1.png"
+  alt="First Screen"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
