@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Qc-5P-1zd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Design" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beef Cheese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJd-x0-Z17">
+                                <rect key="frame" x="101" y="108" width="212.5" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" name="main_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemek_resim" translatesAutoresizingMaskIntoConstraints="NO" id="R56-Pb-J4Q">
+                                <rect key="frame" x="132" y="167" width="150" height="150"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="njE-Lr-BBG">
+                                <rect key="frame" x="84" y="333" width="246.5" height="28"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsO-78-b5u">
+                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="main_color"/>
+                                        <color key="tintColor" name="writing_color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Cheese">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfr-KG-w1l">
+                                        <rect key="frame" x="87.5" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="main_color"/>
+                                        <color key="tintColor" name="writing_color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sausage">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHA-uF-TXP">
+                                        <rect key="frame" x="175" y="0.0" width="71.5" height="28"/>
+                                        <color key="backgroundColor" name="main_color"/>
+                                        <color key="tintColor" name="writing_color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Pepper">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LER-Ay-1Gm">
+                                <rect key="frame" x="172" y="377" width="70.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="writing_color_2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TO2-ky-2zB">
+                                <rect key="frame" x="165" y="419.5" width="84.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="main_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meat lover, get ready to meet your pizza!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="592-Bb-fv9">
+                                <rect key="frame" x="32" y="462" width="350" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="writing_color_2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 5.98" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f81-zd-D8l">
+                                <rect key="frame" x="16" y="784.5" width="116.5" height="45.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" name="main_color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hol-Lv-Rvo">
+                                <rect key="frame" x="232.5" y="789.5" width="165.5" height="36"/>
+                                <color key="backgroundColor" name="main_color"/>
+                                <color key="tintColor" name="writing_color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO CHART">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="njE-Lr-BBG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5gU-fg-ah8"/>
+                            <constraint firstItem="KJd-x0-Z17" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="6RW-wB-qIQ"/>
+                            <constraint firstItem="TO2-ky-2zB" firstAttribute="centerX" secondItem="LER-Ay-1Gm" secondAttribute="centerX" id="7xb-W6-eA4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hol-Lv-Rvo" secondAttribute="trailing" constant="16" id="IFX-ve-pMP"/>
+                            <constraint firstItem="R56-Pb-J4Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KHP-sk-EYo"/>
+                            <constraint firstItem="KJd-x0-Z17" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMs-sY-hv0"/>
+                            <constraint firstItem="592-Bb-fv9" firstAttribute="top" secondItem="TO2-ky-2zB" secondAttribute="bottom" constant="16" id="YDc-EX-Etw"/>
+                            <constraint firstItem="TO2-ky-2zB" firstAttribute="top" secondItem="LER-Ay-1Gm" secondAttribute="bottom" constant="16" id="Ybc-6l-J8i"/>
+                            <constraint firstAttribute="trailing" secondItem="592-Bb-fv9" secondAttribute="trailing" constant="32" id="YgQ-3Q-5JL"/>
+                            <constraint firstItem="LER-Ay-1Gm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="afg-cT-d9T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f81-zd-D8l" secondAttribute="bottom" constant="32" id="cgq-3i-ED6"/>
+                            <constraint firstItem="f81-zd-D8l" firstAttribute="centerY" secondItem="hol-Lv-Rvo" secondAttribute="centerY" id="ePN-F6-Jwi"/>
+                            <constraint firstItem="LER-Ay-1Gm" firstAttribute="top" secondItem="njE-Lr-BBG" secondAttribute="bottom" constant="16" id="fog-aY-Bhy"/>
+                            <constraint firstItem="592-Bb-fv9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="nvf-Lx-FRk"/>
+                            <constraint firstItem="R56-Pb-J4Q" firstAttribute="top" secondItem="KJd-x0-Z17" secondAttribute="bottom" constant="16" id="txz-CK-C0j"/>
+                            <constraint firstItem="njE-Lr-BBG" firstAttribute="top" secondItem="R56-Pb-J4Q" secondAttribute="bottom" constant="16" id="xni-kC-4Gy"/>
+                            <constraint firstItem="f81-zd-D8l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="z0f-GO-cfV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8uU-6f-d2b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1011.5942028985507" y="3.3482142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zc4-dp-WHN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Qc-5P-1zd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gvq-8b-TDO">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3qy-gc-PQo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFH-CS-9HA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.44927536231884" y="3.3482142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yemek_resim" width="150" height="150"/>
+        <namedColor name="main_color">
+            <color red="0.79607843137254897" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="writing_color">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="writing_color_2">
+            <color red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
