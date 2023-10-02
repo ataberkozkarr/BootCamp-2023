@@ -9,6 +9,7 @@
 
   <img
   src="/Day4/Design/Photo/homework_2.png"
+  src="/Day4/Design/Photo/homework_1.png"
   alt="ICON"
   title="ICON"
   style="max-width: 100px; max-height:200px;">
