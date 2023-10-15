@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Widgets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhe-9M-zjX">
+                                <rect key="frame" x="186" y="64" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your data" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tpz-rb-pMJ">
+                                <rect key="frame" x="50" y="101" width="314" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbB-JD-hkI">
+                                <rect key="frame" x="177" y="151" width="60" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Do it"/>
+                                <connections>
+                                    <action selector="buttonDoIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Yd-7E-puQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCv-os-QYs">
+                                <rect key="frame" x="32" y="235" width="73.5" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Happy"/>
+                                <connections>
+                                    <action selector="buttonHappy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H7p-1H-Yrx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gls-78-ep9">
+                                <rect key="frame" x="289" y="235" width="93" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Unhappy"/>
+                                <connections>
+                                    <action selector="buttonUnhappy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZj-dK-BcQ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="700-Oj-ajQ">
+                                <rect key="frame" x="183" y="236" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Rfz-KS-ouq"/>
+                                    <constraint firstAttribute="width" constant="48" id="mKN-e6-BPt"/>
+                                </constraints>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SRu-61-wgq">
+                                <rect key="frame" x="182.5" y="300" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchChance:" destination="BYZ-38-t0r" eventType="valueChanged" id="Uxv-fE-hpd"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiX-7K-fTp">
+                                <rect key="frame" x="174" y="795" width="66" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show"/>
+                                <connections>
+                                    <action selector="buttonShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3sf-Iv-drg"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="c3t-su-cun">
+                                <rect key="frame" x="95" y="347" width="224" height="32"/>
+                                <segments>
+                                    <segment title="Foods"/>
+                                    <segment title="Desserts"/>
+                                    <segment title="Drinks"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedChance:" destination="BYZ-38-t0r" eventType="valueChanged" id="kWH-pD-LqG"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dCv-os-QYs" firstAttribute="top" secondItem="tpz-rb-pMJ" secondAttribute="bottom" constant="100" id="3E5-SJ-a9a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gls-78-ep9" secondAttribute="trailing" constant="32" id="6Aw-97-GRG"/>
+                            <constraint firstItem="SRu-61-wgq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JjL-cb-5b6"/>
+                            <constraint firstItem="700-Oj-ajQ" firstAttribute="top" secondItem="sbB-JD-hkI" secondAttribute="bottom" constant="50" id="Ngj-Rg-spf"/>
+                            <constraint firstItem="Vhe-9M-zjX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Onf-Yd-1nH"/>
+                            <constraint firstItem="700-Oj-ajQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SzT-Yl-e0v"/>
+                            <constraint firstItem="tpz-rb-pMJ" firstAttribute="top" secondItem="Vhe-9M-zjX" secondAttribute="bottom" constant="16" id="W0Q-hC-uJe"/>
+                            <constraint firstItem="dCv-os-QYs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="XP4-Zb-V4O"/>
+                            <constraint firstItem="gls-78-ep9" firstAttribute="top" secondItem="tpz-rb-pMJ" secondAttribute="bottom" constant="100" id="YRQ-UJ-g85"/>
+                            <constraint firstItem="tpz-rb-pMJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Zfb-nd-uru"/>
+                            <constraint firstItem="Vhe-9M-zjX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ZhJ-FK-tEI"/>
+                            <constraint firstItem="sbB-JD-hkI" firstAttribute="top" secondItem="tpz-rb-pMJ" secondAttribute="bottom" constant="16" id="dVk-JL-CgL"/>
+                            <constraint firstItem="c3t-su-cun" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDV-Su-nrv"/>
+                            <constraint firstItem="SRu-61-wgq" firstAttribute="top" secondItem="700-Oj-ajQ" secondAttribute="bottom" constant="16" id="jK1-ib-vvj"/>
+                            <constraint firstItem="sbB-JD-hkI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDn-ho-kwk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tpz-rb-pMJ" secondAttribute="trailing" constant="50" id="mXQ-oR-bce"/>
+                            <constraint firstItem="UiX-7K-fTp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sbB-2Z-gsO"/>
+                            <constraint firstItem="c3t-su-cun" firstAttribute="top" secondItem="SRu-61-wgq" secondAttribute="bottom" constant="16" id="t4i-Y7-ruI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UiX-7K-fTp" secondAttribute="bottom" constant="32" id="yob-uZ-sEt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="700-Oj-ajQ" id="5N5-Th-fBM"/>
+                        <outlet property="labelResult" destination="Vhe-9M-zjX" id="kZf-TK-7NK"/>
+                        <outlet property="mSwitch" destination="SRu-61-wgq" id="J7m-oZ-cvX"/>
+                        <outlet property="segmentedControl" destination="c3t-su-cun" id="BU6-18-huC"/>
+                        <outlet property="textFieldData" destination="tpz-rb-pMJ" id="MeI-72-ZLM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="happy" width="17" height="17"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
